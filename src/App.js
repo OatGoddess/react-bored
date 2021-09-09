@@ -1,4 +1,4 @@
-import './App.css'
+import style from './App.module.css'
 
 /*
 endpoint: https://www.boredapi.com/api/activity
@@ -15,7 +15,7 @@ example:
 }
 */
 function App() {
-  return <div className="App"></div>
+  return <div className={style.container}></div>
 }
 
 export default App
